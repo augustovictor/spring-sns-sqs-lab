@@ -1,5 +1,5 @@
 module "sns_topic" {
-  source = "git@github.com:augustovictor/spring-sns-sqs-lab-terraform-modules.git//sns?ref=0.0.2"
+  source = "git@github.com:augustovictor/spring-sns-sqs-lab-terraform-modules.git//sns?ref=0.1.0"
 
   sns_topic_min_delay_target = "${var.sns_topic_min_delay_target}"
   sns_topic_backoff_function = "${var.sns_topic_backoff_function}"

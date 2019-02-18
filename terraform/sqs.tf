@@ -1,5 +1,5 @@
 module "sqs_queue" {
-  source = "git@github.com:augustovictor/spring-sns-sqs-lab-terraform-modules.git//sqs?ref=master"
+  source = "git@github.com:augustovictor/spring-sns-sqs-lab-terraform-modules.git//sqs?ref=0.1.0"
 
   sqs_queue_name = "${var.sqs_queue_name}"
   sqs_queue_delay_seconds = "${var.sqs_queue_delay_seconds}"
